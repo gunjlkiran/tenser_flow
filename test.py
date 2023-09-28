@@ -4,7 +4,7 @@ import tensorflow as tf
 x = tf.Variable([[1, 2, 3], [4, 5, 6]])
 
 # Create a new tensor with the desired values
-new_values = tf.constant([[7, 8, 9], [10, 11, 12], [10, 11, 12]])
+new_values = tf.constant([[7, 8, 9], [10, 11, 12], [10, 11, 32]])
 
 # Use the assign method to change the value of x
 x.assign(new_values)
